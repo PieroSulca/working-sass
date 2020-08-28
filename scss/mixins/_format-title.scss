@@ -1,0 +1,56 @@
+@mixin format-title {
+    text-align: center;
+    line-height: 85px;
+    letter-spacing: 6px;
+    color: $main__titles;
+}
+
+@mixin titles__h2 {
+    text-align: center; 
+    line-height: 85px;
+    letter-spacing: 6px;
+    color: $main__titles;
+    text-transform: uppercase;
+}
+
+@mixin h2__p {
+    margin-top: 20px;
+    color: $main__letters;
+    line-height: 30px;
+    text-align: center;
+}
+
+@mixin news__format-h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $main__titles;
+    margin-bottom: 15px;
+}
+@mixin news__format-h6{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@mixin news__format-p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+@mixin news__format-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 2px 10px;
+    color: $links;
+}
+@mixin footer__h5 {
+    color: $secondary;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+@mixin footer__p {
+    color: $footer__letter;
+    line-height: 30px;
+}
